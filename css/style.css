@@ -1,11 +1,13 @@
+/* Default */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Alegreya', serif;
-  
 }
+
 /* Inizio Header */
+
 .title{
     text-align: center;
     color: rgb(200, 54, 144);
@@ -37,6 +39,15 @@
     float: left;    
 }
 
+img{
+    height: 100px;
+}
+
+.box{
+    width: calc(100% / 3);
+    padding: 15px;
+}
+
 .card{
     height: 100px;
     width: 340px;
@@ -45,22 +56,9 @@
     box-shadow: 5px 10px 18px 0px rgb(64, 51, 51,0.7);
 }
 
-img{
-    height: 100px;
-}
-
 .card img{
     margin-right: 20px;
     max-width: 100px;
-}
-
-.box{
-    width: calc(100% / 3);
-    padding: 15px;
-}
-
-#personal_data *{
-    margin: 10px 0px 10px 7px;
 }
 
 .personal_data{
@@ -78,7 +76,7 @@ img{
 }
 
 .card a {
-    font-size:smaller;
+    font-size: smaller;
 }
 
 .card h3, .card span{
